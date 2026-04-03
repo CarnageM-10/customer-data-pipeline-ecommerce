@@ -1,0 +1,29 @@
+# Core data manipulation
+pandas>=2.2.0
+numpy>=1.26.0
+
+# Data visualization
+matplotlib>=3.8.0
+seaborn>=0.13.0
+plotly>=5.18.0
+kaleido>=0.2.1                  # Pour exporter les graphiques Plotly en image (utile pour Power BI ou README)
+
+# Profiling / Auto EDA (très recommandé pour montrer la qualité des données)
+ydata-profiling>=4.8.0          # Successeur moderne de pandas-profiling
+# sweetviz>=2.3.0               # Optionnel : décommente si tu veux un rapport comparatif
+
+# Database & SQL
+sqlalchemy>=2.0.0               # Pour créer et interagir avec SQLite
+# psycopg2-binary               # Si tu passes plus tard sur PostgreSQL (optionnel)
+
+# Utilities
+python-dotenv>=1.0.0            # Pour gérer des variables d'environnement (bonnes pratiques)
+tqdm>=4.66.0                    # Barre de progression (utile si tu traites plusieurs fichiers)
+openpyxl>=3.1.0                 # Au cas où tu veux exporter en Excel
+
+# Jupyter (si tu lances les notebooks)
+jupyter>=1.0.0
+ipykernel>=6.29.0
+
+# Bonus pour un dashboard plus beau (optionnel mais joli)
+dash>=2.14.0                    # Si tu veux créer un petit dashboard web en plus de Power BI
